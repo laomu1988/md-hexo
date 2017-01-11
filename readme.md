@@ -11,6 +11,6 @@ $ npm install -g md-hexo
 run `mdhexo` in your project folder, and then the markdown files without sign `---` will add sign: 
 ```
 title: filename
-tags: [folder1,folder2]
+tags: folder
 ---
 ```

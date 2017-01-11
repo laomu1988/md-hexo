@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var mk = require('../index.js');
 var path = require('path');
 var folder = path.dirname(require.main.filename);
