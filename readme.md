@@ -12,6 +12,7 @@ run `mdhexo` in your project folder, and then the markdown files without sign `-
 ```
 title: filename
 tags: folder
+date: 2017-01-01 10:10:10
 ---
 ```
 
@@ -19,3 +20,6 @@ tags: folder
 ```
 $ mdhexo [folder]
 ```
+
+## todo
+* [x] add date sign from birthtime of file

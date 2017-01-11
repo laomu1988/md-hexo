@@ -18,7 +18,8 @@
     "url": "https://github.com/laomu1988/md-hexo/issues"
   },
   "dependencies": {
-    "filter-files": "*"
+    "filter-files": "*",
+    "timeformatter": "^0.1.6"
   },
   "author": "laomu1988@qq.com",
   "license": "MIT"
