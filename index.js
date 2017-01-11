@@ -1,7 +1,7 @@
 var fs = require('fs');
 var filter = require('filter-files');
 var path = require('path');
-var main_place = path.dirname(require.main.filename);
+var main_place = process.cwd() + '/';
 function mdhexo(filepath) {
   if (path.extname(filepath) !== '.md') return;
   console.log('found:', filepath);
@@ -29,4 +29,4 @@ module.exports = function (folder) {
   for (var i = 0; i < files.length; i++) {
     mdhexo(files[i]);
   }
-}
+};
