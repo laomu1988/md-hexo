@@ -14,3 +14,8 @@ title: filename
 tags: folder
 ---
 ```
+
+## bin
+```
+$ mdhexo [folder]
+```
