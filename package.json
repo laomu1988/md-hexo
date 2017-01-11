@@ -1,0 +1,22 @@
+{
+  "name": "md-hexo",
+  "version": "1.0.0",
+  "description": "add title and tags to mardkwon file..",
+  "main": "index.js",
+  "scripts": {
+    "push": "nrm use npm && npm version patch && npm publish && nrm use taobao",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laomu1988/md-hexo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laomu1988/md-hexo/issues"
+  },
+  "dependencies": {
+    "filter-files": "*"
+  },
+  "author": "laomu1988@qq.com",
+  "license": "MIT"
+}
