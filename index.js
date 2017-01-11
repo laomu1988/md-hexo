@@ -9,7 +9,7 @@ function mdhexo(filepath) {
   console.log('found:', filepath);
   var source = fs.readFileSync(filepath, 'utf8');
   // 判断是否存在---标志
-  var place = source.indexOf('---', source.indexOf('\n') + 1);
+  var place = source.indexOf('\n---');
   var before = source.substr(0, place);
   if (place > 0 && before.indexOf('title:') >= 0) return;
   var relative = path.relative(main_place, filepath);

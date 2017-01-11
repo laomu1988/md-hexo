@@ -23,3 +23,4 @@ $ mdhexo [folder]
 
 ## todo
 * [x] add date sign from birthtime of file
+* [ ] 补充缺失的sign
