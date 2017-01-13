@@ -1,6 +1,6 @@
 {
   "name": "md-hexo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "add title and tags to mardkwon file..",
   "main": "index.js",
   "bin": {
