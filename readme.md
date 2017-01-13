@@ -23,4 +23,5 @@ $ mdhexo [folder]
 
 ## todo
 * [x] add date sign from birthtime of file
+* [x] 忽略node_modules目录
 * [ ] 补充缺失的sign
